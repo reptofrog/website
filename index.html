@@ -42,7 +42,7 @@
         html {
             box-sizing: border-box;
             font-family: 'Cantarell';
-            font-size: 10px;
+            font-size: 12px;
         }
 
         *, *:before, *:after {
@@ -246,6 +246,12 @@
             background-position: center;
             background-size: 65%;
             flex: 1;
+        }
+
+        @media screen and (max-width: 755px) {
+            html {
+                font-size: 10px;
+            }
         }
 
         @media screen and (max-width: 622px) {
